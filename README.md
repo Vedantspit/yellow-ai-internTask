@@ -1,6 +1,10 @@
-# ProjectGPT - Minimal Chatbot Platform
+# ProjectGPT - Minimal Chatbot Platform 🤖
 
 A minimal chatbot platform built using the **MERN stack**, supporting multiple users, projects/agents, file uploads, and chat interaction using **OpenRouter LLM API**.
+
+### 🚀 Live Demo
+
+[Click here to try the deployed app](https://yellow-frontend.vercel.app)
 
 ---
 
@@ -20,13 +24,18 @@ A minimal chatbot platform built using the **MERN stack**, supporting multiple u
 
 ![Architecture Diagram](architecture.png)
 
-**Explanation:**
+### Screenshots
 
-- **Frontend:** React.js handles user interface, chat, and project management.
+- Project creation: ![Demo1](demo1.png)
+- File upload & explanation by ProjectGPT: ![Demo2](demo2.png)
+
+### Explanation
+
+- **Frontend:** React.js handles UI, chat, and project management.
 - **Backend:** Node.js + Express handles authentication, project management, chat routing, and file uploads.
 - **Database:** MongoDB stores users, projects, chat history, and uploaded file metadata.
-- **LLM API:** OpenRouter API is used to generate AI responses per project.
-- **File Extraction:** Uploaded PDF/CSV files are parsed to provide context to the AI.
+- **LLM API:** OpenRouter API generates AI responses per project.
+- **File Extraction:** Uploaded PDF/CSV files are parsed to provide context to AI.
 
 ---
 
@@ -67,7 +76,7 @@ npm install
 
 ### Environment Variables
 
-Create a `.env` file in the backend folder:
+Create a `.env` file in the `backend` folder:
 
 ```
 PORT=4000
@@ -97,7 +106,7 @@ Visit `http://localhost:5173` (or the port shown by Vite) in your browser.
 1. Register a new user or login with existing credentials.
 2. Create a new project/agent with a title and optional prompt/description.
 3. Upload PDF/CSV files to provide additional context.
-4. Use the chat interface to ask questions or interact with the AI.
+4. Use the chat interface to ask questions or interact with AI.
 5. Chat history is automatically stored per project.
 
 ---
@@ -117,12 +126,10 @@ projectgpt/
 ## Future Improvements
 
 - Analytics dashboard for user and project activity.
-- Multi-Language support for chat and PDF parsing.
+- Multi-language support for chat and PDF parsing.
 - File embedding & semantic search for large documents.
 - Role-based access control for teams.
 
 ---
 
-## License
-
-MIT License © 2025 Your Name
+Vedant Deshmukh © 2025
