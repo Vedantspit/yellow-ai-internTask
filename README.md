@@ -18,17 +18,7 @@ A minimal chatbot platform built using the **MERN stack**, supporting multiple u
 
 ## Architecture
 
-```mermaid
-flowchart LR
-    A[User] -->|Register/Login| B[Auth Service (JWT)]
-    B --> C[Frontend (React)]
-    C --> D[Backend (Node.js + Express)]
-    D --> E[MongoDB Database]
-    D --> F[OpenRouter LLM API]
-    D -->|File Upload| G[PDF/CSV Extraction Module]
-    F --> C
-    E --> C
-```
+![Architecture Diagram](architecture.png)
 
 **Explanation:**
 
