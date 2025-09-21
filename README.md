@@ -2,9 +2,8 @@
 
 A minimal chatbot platform built using the **MERN stack**, supporting multiple users, projects/agents, file uploads, and chat interaction using **OpenRouter LLM API**.
 
-### 🚀 Live Demo
 
-[Click here to try the deployed app](https://yellow-frontend.vercel.app)
+[**🚀 Live Demo**](https://yellow-frontend.vercel.app)
 
 ---
 
