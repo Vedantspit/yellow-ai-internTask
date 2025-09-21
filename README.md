@@ -26,8 +26,14 @@ A minimal chatbot platform built using the **MERN stack**, supporting multiple u
 
 ### Screenshots
 
-- Project creation: ![Demo1](demo1.png)
-- File upload & explanation by ProjectGPT: ![Demo2](demo2.png)
+- **Project creation:** ![Demo1](demo1.png)
+- **File upload & explanation by ProjectGPT:** ![Demo2](demo2.png)
+
+### Creating a Resume Agent / Project
+
+- **Project creation named 'Resume':** ![Demo3](demo3_create.png)
+- **Attached resume:** ![Demo4](demo5_resume_upload.png)
+- **Response by ProjectGPT:** ![Demo5](demo6.png)
 
 ### Explanation
 
